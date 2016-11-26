@@ -12,8 +12,10 @@ set directory=$HOME/.vim/swp
 
 "インクリメンタルサーチを行う(http://nanasi.jp/articles/howto/note/top10-viuser-need-to-know-about-vim.html)
 set incsearch
+"検索時に大文字を含んでいたら大/小を区別
+set smartcase
 "C言語スタイルのインデント機能を有効にする
-"set cindent
+set cindent
 "タブ文字、行末など不可視文字を表示する(http://blog.remora.cx/2011/08/display-invisible-characters-on-vim.html)
 set list
 "listで表示される文字のフォーマットを指定する
@@ -25,6 +27,16 @@ set clipboard+=autoselect
 set fileencoding=utf-8
 "読み込み時の文字コード
 set fileencodings=utf-8,cp932
+
+"カーソルラインを表示する(http://qiita.com/koara-local/items/57b5f2847b3506a6485b)
+set cursorline
+
+"ルーラー,行番号を表示
+set ruler
+set number
+
+"ステータスラインを常に表示
+set laststatus=2
 
 " 全角スペースの表示(http://inari.hatenablog.com/entry/2014/05/05/231307)
 function! ZenkakuSpace()
@@ -61,15 +73,16 @@ call dein#begin('/Users/umemoto/.vim/dein')
 
 " Let dein manage dein
 " Required:
-call dein#add('Shougo/dein.vim')
+"call dein#add('Shougo/dein.vim')
 
 " Add or remove your plugins here:
-call dein#add('Shougo/neosnippet.vim')
-call dein#add('Shougo/neosnippet-snippets')
+"call dein#add('Shougo/neosnippet.vim')
+"call dein#add('Shougo/neosnippet-snippets')
 
 " You can specify revision/branch/tag.
-call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
-
+"call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+call dein#load_toml('~/.vim/dein/toml/plugins.toml', {'lazy': 0})
+call dein#load_toml('~/.vim/dein/toml/plugins-lazy.toml', {'lazy': 1})
 " Required:
 call dein#end()
 
