@@ -1,0 +1,12 @@
+[user]
+	name = Takafumi Umemoto
+	email = umecch@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
