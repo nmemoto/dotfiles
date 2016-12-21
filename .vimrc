@@ -42,6 +42,13 @@ set laststatus=2
 " ターミナル上で 256 色使うための設定
 set t_Co=256
 
+nnoremap あ a
+nnoremap い i
+nnoremap う u
+nnoremap お o
+nnoremap っd dd
+nnoremap っy yy
+
 " 全角スペースの表示(http://inari.hatenablog.com/entry/2014/05/05/231307)
 function! ZenkakuSpace()
   highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
