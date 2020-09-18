@@ -1,7 +1,7 @@
-# dotfiles for nmemoto
+# dotfiles
 
 ## 概要
-dotfiles の中身と $HOME 以下にそれぞれシンボリックリンクを張る.
+dotfiles 内の該当ファイルを $HOME 以下にシンボリックリンクを張る.
 
 ## 導入手順
 ### git clone
@@ -11,7 +11,7 @@ $ git clone https://github.com/nmemoto/dotfiles.git
 ```
 
 ### インストール
-git clone した dotfiles で install.sh を実行する.
+リポジトリに含まれている setup.sh を実行する.
 ```
-$ sh ./install.sh
+$ sh ./setup.sh
 ```

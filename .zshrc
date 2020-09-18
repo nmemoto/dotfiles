@@ -98,3 +98,5 @@ linux*)
   alias ls="ls --color"
   ;;
 esac
+
+export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
