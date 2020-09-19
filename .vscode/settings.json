@@ -3,5 +3,6 @@
     "editor.fontFamily": "Ricty Diminished",
     "editor.fontSize": 14,
     "terminal.integrated.fontFamily": "Ricty Diminished",
-    "terminal.integrated.fontSize": 14
+    "terminal.integrated.fontSize": 14,
+    "files.trimTrailingWhitespace": true
 }
