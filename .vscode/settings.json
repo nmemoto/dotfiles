@@ -2,7 +2,8 @@
     "workbench.colorTheme": "GitHub Dark",
     "editor.fontFamily": "Ricty Diminished",
     "editor.fontSize": 14,
+    "editor.renameOnType": true,
     "terminal.integrated.fontFamily": "Ricty Diminished",
     "terminal.integrated.fontSize": 14,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
 }
