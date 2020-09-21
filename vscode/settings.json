@@ -1,0 +1,13 @@
+{
+	"remote.containers.defaultExtensions": [
+		"ms-ceintl.vscode-language-pack-ja",
+		"ms-azuretools.vscode-docker",
+		"vscode-icons-team.vscode-icons",
+		"CoenraadS.bracket-pair-colorizer-2",
+		"eamodio.gitlens",
+		"mosapride.zenkaku",
+		"DavidAnson.vscode-markdownlint",
+		"mechatroner.rainbow-csv"
+	],
+	"workbench.colorTheme": "GitHub Dark"
+}
