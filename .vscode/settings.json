@@ -1,12 +1,7 @@
 {
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "editor.fontFamily": "Source Han Code JP",
-  "editor.fontSize": 12,
   "editor.renameOnType": true,
   "editor.formatOnSave": true,
-  "terminal.integrated.fontFamily": "Source Han Code JP",
-  "terminal.integrated.fontSize": 12,
+  "editor.rulers": [80],
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true
 }
