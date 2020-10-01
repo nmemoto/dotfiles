@@ -24,6 +24,7 @@
   "editor.renderWhitespace": "boundary",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+  "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontFamily": "Source Han Code JP",
   "terminal.integrated.fontSize": 12
 }
