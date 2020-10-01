@@ -21,10 +21,9 @@
   "editor.wordBasedSuggestions": false,
   "editor.suggest.localityBonus": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "boundary",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "terminal.integrated.fontFamily": "Source Han Code JP",
-  "terminal.integrated.fontSize": 12,
-  "aws.telemetry": false
+  "terminal.integrated.fontSize": 12
 }
