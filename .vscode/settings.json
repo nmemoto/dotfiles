@@ -22,6 +22,8 @@
   "editor.suggest.localityBonus": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.renderWhitespace": "boundary",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "explorer.confirmDragAndDrop": false,
