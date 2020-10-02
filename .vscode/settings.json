@@ -10,6 +10,7 @@
     "mechatroner.rainbow-csv"
   ],
   "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "material-icon-theme",
   "git.confirmSync": false,
   "git.autofetch": true,
   "editor.fontFamily": "Source Han Code JP",
