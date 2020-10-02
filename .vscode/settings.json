@@ -25,6 +25,14 @@
   "editor.smoothScrolling": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.next": true
+  },
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "Source Han Code JP",
