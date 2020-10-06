@@ -11,6 +11,7 @@ done
 
 # VSCode User 設定(User and WorkSpace Settings https://code.visualstudio.com/docs/getstarted/settings)
 ln -s $PWD/.vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+ln -s $PWD/.vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
 
 # VSCode Extension インストール
 bash ./vscode/install-extensions.sh
