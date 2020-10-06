@@ -52,5 +52,7 @@
       "sideBar.border": "#102a44",
       "sideBar.foreground": "#8BADC1"
     }
-  }
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
