@@ -5,7 +5,9 @@
     "mosapride.zenkaku",
     "DavidAnson.vscode-markdownlint",
     "mechatroner.rainbow-csv",
-    "VisualStudioExptTeam.vscodeintellicode"
+    "VisualStudioExptTeam.vscodeintellicode",
+    "patbenatar.advanced-new-file",
+    "sleistner.vscode-fileutils"
   ],
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
