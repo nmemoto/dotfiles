@@ -26,8 +26,12 @@
   "editor.renderWhitespace": "boundary",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.smoothScrolling": true,
+  "editor.tabCompletion": "on",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.multiCursorModifier": "ctrlCmd",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "search.exclude": {
     "**/node_modules": true,
     "**/coverage": true,
@@ -40,6 +44,7 @@
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "Source Han Code JP",
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.macOptionIsMeta": true,
   "workbench.colorTheme": "Night Owl",
   "workbench.colorCustomizations": {
     "[Night Owl]": {
@@ -58,5 +63,6 @@
     }
   },
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false
 }
