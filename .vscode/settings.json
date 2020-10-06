@@ -8,10 +8,14 @@
     "VisualStudioExptTeam.vscodeintellicode"
   ],
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.fontAliasing": "auto",
   "git.confirmSync": false,
   "git.autofetch": true,
   "editor.fontFamily": "Source Han Code JP",
   "editor.fontSize": 12,
+  "editor.fontWeight": "400",
   "editor.renameOnType": true,
   "editor.formatOnSave": true,
   "editor.rulers": [80],
@@ -54,7 +58,5 @@
     }
   },
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.settings.editor": "json",
-  "workbench.settings.useSplitJSON": true
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
