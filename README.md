@@ -32,3 +32,4 @@ sh ./setup.sh
 | [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)                                  | patbenatar.advanced-new-file           | ファイル新規追加時のショートカット      |
 | [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)                                           | sleistner.vscode-fileutils             | ファイル操作をコマンドパレットから行う  |
 | [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)                                      | wayou.vscode-todo-highlight            | TODO/FIXME をハイライト表示             |
+| [Project Manager](alefragnani.project-manager)                                                                                         |                                        |                                         |
