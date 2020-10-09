@@ -7,6 +7,8 @@
     "mechatroner.rainbow-csv",
     "VisualStudioExptTeam.vscodeintellicode",
     "patbenatar.advanced-new-file",
+    "sleistner.vscode-fileutils",
+    "patbenatar.advanced-new-file",
     "sleistner.vscode-fileutils"
   ],
   "workbench.iconTheme": "material-icon-theme",
