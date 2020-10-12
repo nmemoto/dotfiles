@@ -33,6 +33,9 @@
   "editor.tabCompletion": "on",
   "editor.quickSuggestionsDelay": 0,
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
